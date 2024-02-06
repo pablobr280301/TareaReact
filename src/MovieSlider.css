@@ -1,0 +1,89 @@
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie-item {
+  margin: 10px;
+  text-align: center;
+  color: black;
+}
+
+.movie-poster {
+  width: 300px; 
+  height: 500px; 
+  object-fit: cover;
+}
+
+/* Estilo para el placeholder */
+.input-buscador::placeholder {
+  color: black;
+}
+
+.input-buscador{
+  color: black;
+}
+
+.movie-title {
+  max-width: 200px;
+  margin: 10px auto; 
+  font-size: 1.5rem; 
+}
+
+
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie-item {
+  margin: 10px;
+  text-align: center;
+  flex-basis: calc(25% - 20px);
+  box-sizing: border-box;
+}
+
+.movie-poster {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+
+.movie-item {
+  margin: 10px;
+  text-align: center;
+  flex-basis: calc(25% - 20px);
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid transparent; 
+  transition: border-color 0.3s ease;
+  border-radius: 30px;
+}
+
+.movie-item:hover .movie-poster {
+  transform: scale(1.05); 
+  border-radius: 30px;
+}
+
+.movie-poster {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover;
+  transition: transform 0.3s ease; 
+}
+
+.fotoCartelera{
+  border-radius: 30px;
+  width: 30%;
+}
+
+
+
+

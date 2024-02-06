@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tituloPagina{
+    color: white;
+    Font-family:CenturyGothic;
+}
+.parrafoTitulo{
+    color: white;
+    Font-family: CenturyGothic;
+}
+
+a{
+    color: white;
+}
+.white-button {
+    color: white;
+  }
+
+.footerComponente{
+    color: white;
+}
+
+p{
+    color: white;
+}
